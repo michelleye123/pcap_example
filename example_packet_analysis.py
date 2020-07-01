@@ -69,7 +69,6 @@ class AnalysePcap():
         print(['%.1f seconds' % source_delay for source_delay in sum_delays[1:]])
         print('Total number of arrivals from [1, 2, 3, 4]: ')
         print(count_arrivals[1:])
-        print('Source 2 is missing 11 packets!\n')
 
     def output_graph(self):
         count_first_arrivals = [-1, 0, 0, 0, 0]
